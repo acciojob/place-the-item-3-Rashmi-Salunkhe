@@ -1,2 +1,15 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.item {
+  flex-basis: calc(33.33% - 10px); /* Adjust width based on the number of items */
+  margin-bottom: 10px; /* Add spacing between items */
+  background-color: #f1f1f1;
+  padding: 10px;
+  box-sizing: border-box;
+}
